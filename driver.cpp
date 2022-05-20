@@ -4,11 +4,11 @@
 
 using namespace std;
 
-void driver::setDriverDetails(int id, char name[], char email[], int contact)
+void driver::setDriverDetails(int id, string name, string email, int contact)
 {
 	dID = id;
-	strcpy_(dName, name);
-	strcpy_(dEmail, email);
+	dName=name;
+	dEmail=email;
 	dContact = contact;
 };
 

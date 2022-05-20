@@ -2,11 +2,11 @@ class driver
 {
 private:
 	int dID;
-	char dName[30];
-	char dEmail[50];
+	string dName;
+	string dEmail;
 	int dContact;
-
+  
 public:
-	void setDriverDetails(int id, char name[], char email[], int contact);
+	void setDriverDetails(int id, string name, string email, int contact);
 	void displayDriverDetails();
 };
